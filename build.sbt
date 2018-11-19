@@ -3,7 +3,9 @@ enablePlugins(JavaAppPackaging)
 name := "scala-akka-http-quickstart"
 organization := "com.exabeam"
 version := "1.0"
-scalaVersion := "2.12.3"
+scalaVersion := "2.12.4"
+
+resolvers += Resolver.sonatypeRepo("snapshots")
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
 
