@@ -18,7 +18,8 @@ libraryDependencies ++= {
     "com.typesafe.akka" %% "akka-http" % akkaHttpV,
     "com.typesafe.akka" %% "akka-http-spray-json" % akkaHttpV,
     "com.typesafe.akka" %% "akka-http-testkit" % akkaHttpV,
-    "org.scalatest"     %% "scalatest" % scalaTestV % "test"
+    "org.scalatest"     %% "scalatest" % scalaTestV % "test",
+    "com.geeoz.pawl"    %% "pawl-scalatest" % "0.1.2-SNAPSHOT" % "test"
   )
 }
 
